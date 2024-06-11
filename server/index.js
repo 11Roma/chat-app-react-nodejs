@@ -6,19 +6,18 @@ const messageRoutes = require("./routes/messages");
 const app = express();
 const socket = require("socket.io");
 require("dotenv").config();
+// import socket from "socket.io"
 
 app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect(process.env.MONGO_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(process.env.MONGO_URL)
   .then(() => {
     console.log("DB Connetion Successfull");
   })
   .catch((err) => {
+    console.log(process.env.MONGO_URL);
     console.log(err.message);
   });
 

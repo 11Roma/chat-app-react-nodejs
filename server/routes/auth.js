@@ -5,7 +5,7 @@ const {
   setAvatar,
   logOut,
 } = require("../controllers/userController");
-
+// }=import userController from ("../controllers/userController")
 const router = require("express").Router();
 
 router.post("/login", login);
