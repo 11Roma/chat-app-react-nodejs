@@ -90,7 +90,7 @@ export default function Register() {
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>snappy</h1>
+            <h1>ChatCâlin</h1>
           </div>
           <input
             type="text"
@@ -161,7 +161,7 @@ const FormContainer = styled.div`
   input {
     background-color: transparent;
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solid #DAB0E4;
     border-radius: 0.4rem;
     color: white;
     width: 100%;
@@ -172,7 +172,7 @@ const FormContainer = styled.div`
     }
   }
   button {
-    background-color: #4e0eff;
+    background-color: #DAB0E4;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -182,14 +182,14 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: #DAB0E4;
     }
   }
   span {
     color: white;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: #DAB0E4;
       text-decoration: none;
       font-weight: bold;
     }
