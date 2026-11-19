@@ -1,68 +1,113 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
+# ChatCâlin – Real-Time Chat Application
 
+ChatCâlin is a full-stack real-time chat application developed as a team project during our final-year training project (PFE) in 2024.
 
-![login page](./images/snappy_login.png)
+The application allows users to create accounts, log in, manage contacts, and exchange messages through a user-friendly interface.
 
-![home page](./images/snappy.png)
+## Features
+
+- User registration and authentication
+- Login and logout functionality
+- Contact list management
+- Real-time messaging
+- Interactive chat interface
+- Customized application branding and UI
+
+## Technologies Used
+
+**Frontend**
+- React.js
+- CSS
+- Styled Components
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+## My Contributions
+
+As a member of the development team, my contributions included:
+
+- Developing and customizing frontend components using React.js.
+- Working with MongoDB for data management.
+- Contributing to the chat interface and user experience.
+- Customizing the application branding, including the ChatCâlin name and UI colors.
+
+## Screenshots
+
+### Login Page
+![Login Page](./images/snappy_login.png)
+
+### Chat Dashboard
+![Chat Dashboard](./images/snappy.png)
 
 ## Installation Guide
 
 ### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 
-Both should be installed and make sure mongodb is running.
-### Installation
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
 
-#### First Method
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
+Make sure MongoDB is installed and running.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/11Roma/chat-app-react-nodejs.git
 cd chat-app-react-nodejs
 ```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
+
+### 2. Configure environment variables
+
+Create the required `.env` files using the provided `.env.example` files, if available, inside the `public` and `server` directories.
+
+Configure the required database connection and application settings.
+
+### 3. Install dependencies
+
+```bash
 cd server
-mv .env.example .env
-cd ..
+yarn install
+cd ../public
+yarn install
 ```
 
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
+### 4. Start the backend
 
-For Frontend.
-```shell
-cd public
-yarn start
-```
-For Backend.
+Open a terminal:
 
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
+```bash
 cd server
 yarn start
 ```
-Done! Now open localhost:3000 in your browser.
 
-#### Second Method
-- This method requires docker and docker-compose to be installed in your system.
-- Make sure you are in the root of your project and run the following command.
+### 5. Start the frontend
 
-```shell
-docker compose build --no-cache
+Open another terminal:
+
+```bash
+cd public
+yarn start
 ```
-after the build is complete run the containers using the following command
-```shell
-docker compose up
-```
-now open localhost:3000 in your browser.
+
+Open your browser and visit:
+
+`http://localhost:3000`
+
+## Project Background & Credits
+
+This application was developed as a collaborative PFE project in 2024.
+
+The project was inspired by and built upon the open-source repository:
+
+[Original Chat Application – koolkishan](https://github.com/koolkishan/chat-app-react-nodejs)
+
+Original project credits are acknowledged. The team customized and extended the application as part of its academic project.
+
+## Author
+
+**11Roma**
+
+GitHub: [https://github.com/11Roma](https://github.com/11Roma)
