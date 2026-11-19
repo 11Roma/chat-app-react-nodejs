@@ -35,22 +35,6 @@ As a member of the development team, my contributions included:
 - Contributing to the chat interface and user experience.
 - Customizing the application branding, including the ChatCâlin name and UI colors.
 
-## Screenshots
-
-### Login Page
-![Login Page](./images/snappy_login.png)
-
-### Chat Dashboard
-![Chat Dashboard](./images/snappy.png)
-
-## Installation Guide
-
-### Requirements
-
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-
-Make sure MongoDB is installed and running.
 
 ### 1. Clone the repository
 
@@ -99,12 +83,6 @@ Open your browser and visit:
 ## Project Background & Credits
 
 This application was developed as a collaborative PFE project in 2024.
-
-The project was inspired by and built upon the open-source repository:
-
-[Original Chat Application – koolkishan](https://github.com/koolkishan/chat-app-react-nodejs)
-
-Original project credits are acknowledged. The team customized and extended the application as part of its academic project.
 
 ## Author
 
